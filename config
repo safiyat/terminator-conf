@@ -1,0 +1,24 @@
+[global_config]
+[keybindings]
+  split_horiz = <Alt>h
+  split_vert = <Alt>v
+[profiles]
+  [[default]]
+    background_image = None
+    visible_bell = True
+    background_darkness = 0.76
+    background_type = transparent
+    cursor_color = "#000000"
+    foreground_color = "#000000"
+    cursor_shape = underline
+    background_color = "#ffffdd"
+    scrollback_infinite = True
+[layouts]
+  [[default]]
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+    [[[window0]]]
+      type = Window
+      parent = ""
+[plugins]
