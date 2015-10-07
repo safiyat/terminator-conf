@@ -28,6 +28,7 @@
 | Resize the terminal left       |               Ctrl - Shift - Left     |
 | Resize the terminal down       |               Ctrl - Shift - Down     |
 
+
 ---
 
 ### Custom
