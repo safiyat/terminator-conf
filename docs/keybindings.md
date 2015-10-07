@@ -2,6 +2,8 @@
 
 
 ### Default
+
+
 | ----------------------------:| ----------------------------:|
 | Search Terminator scrollback   |                 Ctrl - Shift - F |
 | Close terminal                 |                 Ctrl - Shift - W |
