@@ -32,6 +32,14 @@
     cursor_shape = underline
     background_color = "#ffffdd"
     scrollback_infinite = True
+  [[Black Opaque]]
+    background_image = None
+    visible_bell = True
+    background_darkness = 1.37
+    cursor_shape = underline
+    cursor_color = "#ffffff"
+    foreground_color = "#ffffff"
+    scrollback_infinite = True
   [[White Opaque]]
     background_image = None
     visible_bell = True
@@ -40,14 +48,6 @@
     cursor_color = "#000000"
     foreground_color = "#000000"
     background_color = "#ffffdd"
-    scrollback_infinite = True
-  [[Black Opaque]]
-    background_image = None
-    visible_bell = True
-    background_darkness = 1.37
-    cursor_shape = underline
-    cursor_color = "#ffffff"
-    foreground_color = "#ffffff"
     scrollback_infinite = True
 [layouts]
   [[default]]
