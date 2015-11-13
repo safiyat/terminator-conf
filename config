@@ -1,4 +1,5 @@
 [global_config]
+  enabled_plugins = APTURLHandler, LaunchpadCodeURLHandler, LaunchpadBugURLHandler
 [keybindings]
   split_horiz = <Alt>h
   split_vert = <Alt>v
@@ -7,6 +8,25 @@
     background_image = None
     visible_bell = True
     background_darkness = 0.82
+    background_type = transparent
+    cursor_color = "#000000"
+    foreground_color = "#000000"
+    cursor_shape = underline
+    background_color = "#ffffdd"
+    scrollback_infinite = True
+  [[White Opaque]]
+    background_image = None
+    visible_bell = True
+    background_darkness = 1.29
+    cursor_shape = underline
+    cursor_color = "#000000"
+    foreground_color = "#000000"
+    background_color = "#ffffdd"
+    scrollback_infinite = True
+  [[White]]
+    background_image = None
+    visible_bell = True
+    background_darkness = 0.84
     background_type = transparent
     cursor_color = "#000000"
     foreground_color = "#000000"
@@ -22,16 +42,6 @@
     foreground_color = "#ffffff"
     background_type = transparent
     scrollback_infinite = True
-  [[White]]
-    background_image = None
-    visible_bell = True
-    background_darkness = 0.84
-    background_type = transparent
-    cursor_color = "#000000"
-    foreground_color = "#000000"
-    cursor_shape = underline
-    background_color = "#ffffdd"
-    scrollback_infinite = True
   [[Black Opaque]]
     background_image = None
     visible_bell = True
@@ -39,15 +49,6 @@
     cursor_shape = underline
     cursor_color = "#ffffff"
     foreground_color = "#ffffff"
-    scrollback_infinite = True
-  [[White Opaque]]
-    background_image = None
-    visible_bell = True
-    background_darkness = 1.29
-    cursor_shape = underline
-    cursor_color = "#000000"
-    foreground_color = "#000000"
-    background_color = "#ffffdd"
     scrollback_infinite = True
 [layouts]
   [[default]]
