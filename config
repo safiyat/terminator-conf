@@ -1,5 +1,6 @@
 [global_config]
   enabled_plugins = APTURLHandler, LaunchpadCodeURLHandler, LaunchpadBugURLHandler
+  title_transmit_bg_color = "#7e88c0"
 [keybindings]
   split_horiz = <Alt>h
   split_vert = <Alt>v
