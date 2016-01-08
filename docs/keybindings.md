@@ -13,6 +13,7 @@
 | Focus the next terminal        |               Ctrl - Tab              |
 | Focus the previous terminal    |               Ctrl - Shift -Tab       |
 | Toggle fullscreen              |               F11                     |
+| Maximize/Restore terminal      |               Ctrl - Shift - X        |
 | Focus the terminal below       |               Alt - Down              |
 | Focus the terminal to the left |               Alt - Left              |
 | Focus the terminal to the right|               Alt - Right             |
