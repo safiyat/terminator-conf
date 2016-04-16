@@ -6,7 +6,7 @@
   split_vert = <Alt>v
 [profiles]
   [[default]]
-    background_image = None
+    use_system_font = False
     visible_bell = True
     background_darkness = 1.0
     cursor_color = "#000000"
